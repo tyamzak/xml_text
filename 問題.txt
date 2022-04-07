@@ -1,0 +1,9 @@
+1文字漢字[J1][9]: 構 成 含 有、部、材、挙、列、料
+ファイル名: “part-of_0_J1.csv”
+▶step2: 1文字漢字を含む語を抽出
+・EDR品詞辞書” dic_pofs_TGL_2020-02-28.xml”の見出し語を対象に、step1で得漢字を含む見出し語を抽出する。
+入力ファイル[2]: dic_pofs_TGL_2020-02-28.xml”、“part-of_0_J1.csv”
+Python Script:	“Main_Extract_Jwords.py”
+(cf. “Main_XML_Extract_PofS2.py”(folder: “PythonScipts_EDRDic”)
+出力ファイル[1]: “part-of_0_Jwords.csv”
+
